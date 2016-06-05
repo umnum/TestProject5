@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="OK2G9d" name="TestProject5" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.TestProject5" includeBinaryInAppConfig="1"
+              buildVST="0" buildVST3="0" buildAU="1" buildRTAS="0" buildAAX="0"
+              pluginName="TestProject5" pluginDesc="TestProject5" pluginManufacturer="yourcompany"
+              pluginManufacturerCode="Manu" pluginCode="Ok2g" pluginChannelConfigs=""
+              pluginIsSynth="1" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginSilenceInIsSilenceOut="0"
+              pluginEditorRequiresKeys="0" pluginAUExportPrefix="TestProject5AU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.TestProject5"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.1.0">
+  <MAINGROUP id="sg73LX" name="TestProject5">
+    <GROUP id="{5996FE4C-C381-5A49-97E8-9B07DAE94DDE}" name="Images">
+      <FILE id="JvsKeW" name="delay.png" compile="0" resource="1" file="../testimages/delay.png"/>
+      <FILE id="EYG3S0" name="echo.png" compile="0" resource="1" file="../testimages/echo.png"/>
+      <FILE id="LIWfO5" name="play.png" compile="0" resource="1" file="../testimages/play.png"/>
+      <FILE id="xDJhrh" name="radar.jpg" compile="0" resource="1" file="../testimages/radar.jpg"/>
+      <FILE id="aj1WuI" name="radar.png" compile="0" resource="1" file="../testimages/radar.png"/>
+      <FILE id="oep1BV" name="samp1.png" compile="0" resource="1" file="../testimages/samp1.png"/>
+      <FILE id="IBE1kX" name="sine.jpg" compile="0" resource="1" file="../testimages/sine.jpg"/>
+      <FILE id="CgEYKq" name="sine.png" compile="0" resource="1" file="../testimages/sine.png"/>
+      <FILE id="JF3oqG" name="Test0.png" compile="0" resource="1" file="../testimages/Test0.png"/>
+      <FILE id="Ad0jQm" name="Test1.png" compile="0" resource="1" file="../testimages/Test1.png"/>
+      <FILE id="WBPxLy" name="Test2.png" compile="0" resource="1" file="../testimages/Test2.png"/>
+      <FILE id="O1QVB7" name="trem.png" compile="0" resource="1" file="../testimages/trem.png"/>
+      <FILE id="dL5CAH" name="vib.jpg" compile="0" resource="1" file="../testimages/vib.jpg"/>
+    </GROUP>
+    <GROUP id="{4254202D-6C60-DAA8-179E-D94C319ABAAA}" name="Source">
+      <FILE id="DcFI1b" name="DelayOperatorComponent.cpp" compile="1" resource="0"
+            file="Source/DelayOperatorComponent.cpp"/>
+      <FILE id="fynLCL" name="DelayOperatorComponent.h" compile="0" resource="0"
+            file="Source/DelayOperatorComponent.h"/>
+      <FILE id="cnQbPU" name="DelayPluginEditor.cpp" compile="1" resource="0"
+            file="Source/DelayPluginEditor.cpp"/>
+      <FILE id="xaV4zn" name="DelayPluginEditor.h" compile="0" resource="0"
+            file="Source/DelayPluginEditor.h"/>
+      <FILE id="hOmDwm" name="EchoOperatorComponent.cpp" compile="1" resource="0"
+            file="Source/EchoOperatorComponent.cpp"/>
+      <FILE id="sfO9d2" name="EchoOperatorComponent.h" compile="0" resource="0"
+            file="Source/EchoOperatorComponent.h"/>
+      <FILE id="ahizlR" name="EchoPluginEditor.cpp" compile="1" resource="0"
+            file="Source/EchoPluginEditor.cpp"/>
+      <FILE id="nDFOyj" name="EchoPluginEditor.h" compile="0" resource="0"
+            file="Source/EchoPluginEditor.h"/>
+      <FILE id="eR1duc" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="amYjh3" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="dB68fE" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="DIXlpv" name="PlayComponent.cpp" compile="1" resource="0"
+            file="Source/PlayComponent.cpp"/>
+      <FILE id="wGrbdI" name="PlayComponent.h" compile="0" resource="0" file="Source/PlayComponent.h"/>
+      <FILE id="BT95vL" name="RadarTriggerComponent.cpp" compile="1" resource="0"
+            file="Source/RadarTriggerComponent.cpp"/>
+      <FILE id="Ij0TVk" name="RadarTriggerComponent.h" compile="0" resource="0"
+            file="Source/RadarTriggerComponent.h"/>
+      <FILE id="GhvYyk" name="Sampler1OperatorComponent.cpp" compile="1"
+            resource="0" file="Source/Sampler1OperatorComponent.cpp"/>
+      <FILE id="h2Zgry" name="Sampler1OperatorComponent.h" compile="0" resource="0"
+            file="Source/Sampler1OperatorComponent.h"/>
+      <FILE id="b4R2Q5" name="Sampler1PluginEditor.cpp" compile="1" resource="0"
+            file="Source/Sampler1PluginEditor.cpp"/>
+      <FILE id="Gk8EPT" name="Sampler1PluginEditor.h" compile="0" resource="0"
+            file="Source/Sampler1PluginEditor.h"/>
+      <FILE id="O2jNfG" name="SineOperatorComponent.cpp" compile="1" resource="0"
+            file="Source/SineOperatorComponent.cpp"/>
+      <FILE id="orgAIM" name="SineOperatorComponent.h" compile="0" resource="0"
+            file="Source/SineOperatorComponent.h"/>
+      <FILE id="R8LORL" name="SinePluginEditor.cpp" compile="1" resource="0"
+            file="Source/SinePluginEditor.cpp"/>
+      <FILE id="vmoilX" name="SinePluginEditor.h" compile="0" resource="0"
+            file="Source/SinePluginEditor.h"/>
+      <FILE id="U8A8Le" name="TremoloOperatorComponent.cpp" compile="1" resource="0"
+            file="Source/TremoloOperatorComponent.cpp"/>
+      <FILE id="MBniBP" name="TremoloOperatorComponent.h" compile="0" resource="0"
+            file="Source/TremoloOperatorComponent.h"/>
+      <FILE id="yH6m2f" name="TremoloPluginEditor.cpp" compile="1" resource="0"
+            file="Source/TremoloPluginEditor.cpp"/>
+      <FILE id="QDpdH0" name="TremoloPluginEditor.h" compile="0" resource="0"
+            file="Source/TremoloPluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="TestProject5"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="TestProject5"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_video" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../Programs/juce/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <ANDROIDSTUDIO androidVersionCode="1" androidActivityClass="com.yourcompany.TestProject5"
+                   androidMinimumSDK="10" androidInternetNeeded="1" androidBluetoothNeeded="1"
+                   androidKeyStore="${user.home}/.android/debug.keystore" androidKeyStorePass="android"
+                   androidKeyAlias="androiddebugkey" androidKeyAliasPass="android"
+                   androidCpp11="1" targetFolder="Builds/AndroidStudio">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" androidArchitectures="armeabi armeabi-v7a x86" isDebug="1"
+                       optimisation="1" targetName="TestProject5"/>
+        <CONFIGURATION name="Release" androidArchitectures="armeabi armeabi-v7a x86"
+                       isDebug="0" optimisation="3" targetName="TestProject5"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_video" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../Programs/juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../Programs/juce/modules"/>
+      </MODULEPATHS>
+    </ANDROIDSTUDIO>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>

@@ -1,0 +1,1 @@
+/home/umnum/Programs/juce/modules/juce_graphics/geometry/juce_PathStrokeType.h

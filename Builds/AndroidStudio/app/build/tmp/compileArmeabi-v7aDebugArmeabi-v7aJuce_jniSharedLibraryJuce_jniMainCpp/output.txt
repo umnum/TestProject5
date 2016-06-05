@@ -1,0 +1,8 @@
+See file:///home/umnum/TestProject5/Builds/AndroidStudio/app/build/tmp/compileArmeabi-v7aDebugArmeabi-v7aJuce_jniSharedLibraryJuce_jniMainCpp/output.txt for all output for compileArmeabi-v7aDebugArmeabi-v7aJuce_jniSharedLibraryJuce_jniMainCpp.
+compiling Sampler1OperatorComponent.cpp successful.
+
+compiling MainComponent.cpp successful.
+
+compiling juce_graphics.cpp successful.
+
+Finished compileArmeabi-v7aDebugArmeabi-v7aJuce_jniSharedLibraryJuce_jniMainCpp, see full log file:///home/umnum/TestProject5/Builds/AndroidStudio/app/build/tmp/compileArmeabi-v7aDebugArmeabi-v7aJuce_jniSharedLibraryJuce_jniMainCpp/output.txt.

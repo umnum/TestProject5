@@ -1,0 +1,4 @@
+See file:///home/umnum/TestProject5/Builds/AndroidStudio/app/build/tmp/linkArmeabi-v7aDebugArmeabi-v7aJuce_jniSharedLibrary/output.txt for all output for linkArmeabi-v7aDebugArmeabi-v7aJuce_jniSharedLibrary.
+linking libjuce_jni.so successful.
+
+Finished linkArmeabi-v7aDebugArmeabi-v7aJuce_jniSharedLibrary, see full log file:///home/umnum/TestProject5/Builds/AndroidStudio/app/build/tmp/linkArmeabi-v7aDebugArmeabi-v7aJuce_jniSharedLibrary/output.txt.

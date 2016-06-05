@@ -1,0 +1,1 @@
+/home/umnum/Programs/juce/modules/juce_audio_formats/sampler/juce_Sampler.h
